@@ -26,9 +26,6 @@ textarea{
     border: none;
     resize: none;
 }
-/* .resultLargeScreen{
-    display: none;
-} */
 ::-webkit-scrollbar {width: 10px;}
 ::-webkit-scrollbar-track {background: transparent;border: none;}
 ::-webkit-scrollbar-track:hover {background: transparent;}
@@ -36,12 +33,9 @@ textarea{
 ::-webkit-scrollbar-thumb:hover {background: #c3c3c3;}
 
 @media screen and (min-width: 992px) {
-    /* #controls{
+    #controls{
         display: none;
     }
-    .resultLargeScreen{
-        display: block;
-    } */
     #html, #css, #js, #result{
         display: block;
     }
